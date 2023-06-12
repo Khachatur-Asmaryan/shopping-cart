@@ -21,7 +21,10 @@ Add chosen products to the shopping cart and place a new order.
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Installation Clone the repository from GitHub. Install Java 17. Set up the chosen database (MySQL). Configure the database connection in the application properties. Build the project using Maven. Run the application.</p>
-git i link kdnem
+
+```
+https://github.com/Khachatur66/shopping-cart
+```
 
 <p>2. API Documentation. The API documentation is available through Swagger. You can access it by running the application and visiting the provided endpoint.</p>
 
