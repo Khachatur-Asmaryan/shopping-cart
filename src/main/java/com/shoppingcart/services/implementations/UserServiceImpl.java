@@ -41,6 +41,10 @@ public class UserServiceImpl implements UserService {
 
     /**
      * Saves a new user.
+     * <p>
+     * Please create Authority before saving
+     * First Authority must be Admin
+     * Second Authority must be Customer
      *
      * @param user the user to be saved
      * @throws DuplicateDataException if a user with the same email already exists
