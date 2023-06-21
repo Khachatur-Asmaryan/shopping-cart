@@ -13,7 +13,7 @@ import org.springframework.http.HttpHeaders;
 @Configuration
 public class SwaggerConfig {
 
-    @Value("${server.context-path}")
+    @Value("${server.servlet.context-path}")
     private String contextPath;
 
     @Bean

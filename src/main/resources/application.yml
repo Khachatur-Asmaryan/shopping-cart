@@ -1,0 +1,48 @@
+server:
+  servlet:
+    context-path: ""
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shoppingcart
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    open-in-view: false
+  sql:
+    init:
+      mode: always
+
+jwt:
+  secret: MTBNNzczOTc4QTI0NDMyNjQ2Mjk0ODQwNFI2MzUxNjY1NDZSNTc2RTVBNzIzNDc1Mzc3ODIxNDEyNTQ0MlQ0NzJCNTU=
+  access:
+    token:
+      expired: 900000
+  refresh:
+    token:
+      expired: 1800000
+re:
+  login:
+    url: /shopping-cart/auth/re-login
+
+springdoc:
+  swagger-ui:
+    tags-sorter: alpha
+    operations-sorter: method
+    doc-expansion: none
+    default-models-expand-depth: -1
+    disable-swagger-default-url: true
+    url: /v3/api-docs
+    configUrl: /v3/api-docs/swagger-config
+  api-docs:
+    groups:
+      enabled: true
+    path: /v3/api-docs
+    enabled: true
+
