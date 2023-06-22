@@ -58,8 +58,7 @@ public class SecurityConfig {
                                 "/shopping-cart/auth/login",
                                 "/shopping-cart/auth/re-login",
                                 "/user/createAdmin",
-                                "/user/createCustomer",
-                                "/authority").permitAll()
+                                "/user/createCustomer").permitAll()
                         .anyRequest()
                         .authenticated()
                 );
