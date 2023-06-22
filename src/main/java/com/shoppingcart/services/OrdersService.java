@@ -1,4 +1,4 @@
-package com.shoppingcart.services.interfaces;
+package com.shoppingcart.services;
 
 import com.shoppingcart.dto.request.OrdersUpdateRequest;
 import com.shoppingcart.entities.Orders;

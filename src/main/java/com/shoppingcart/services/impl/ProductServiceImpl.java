@@ -1,9 +1,9 @@
-package com.shoppingcart.services.implementations;
+package com.shoppingcart.services.impl;
 
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Product;
+import com.shoppingcart.entities.Product;
 import com.shoppingcart.repositories.ProductRepository;
-import com.shoppingcart.services.interfaces.ProductService;
+import com.shoppingcart.services.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

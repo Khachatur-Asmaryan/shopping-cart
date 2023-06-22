@@ -1,4 +1,4 @@
-package com.shoppingcart.services.implementations;
+package com.shoppingcart.services.impl;
 
 import com.shoppingcart.dto.request.AuthenticationRequest;
 import com.shoppingcart.enums.JwtTokenType;
