@@ -17,10 +17,6 @@ import org.springframework.stereotype.Service;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Service implementation for handling authentication.
- * Implements the {@link AuthenticationService} interface.
- */
 @Service
 @RequiredArgsConstructor
 public class AuthenticationServiceImpl implements AuthenticationService {
@@ -31,15 +27,6 @@ public class AuthenticationServiceImpl implements AuthenticationService {
 
     private final PasswordEncoder passwordEncoder;
 
-    /**
-     * Authenticates the user based on the provided authentication request and token.
-     *
-     * @param request            The authentication request containing the user's credentials.
-     * @param token              The token for the authenticated user, or null if not authenticated.
-     * @param httpServletRequest The HTTP servlet request.
-     * @return A map containing the access token and refresh token for the authenticated user.
-     * @throws JwtAuthenticationException If the authentication fails or the token is invalid.
-     */
     @Override
     public Map<String, Object> authenticate(AuthenticationRequest request, String token, HttpServletRequest httpServletRequest) {
         int userId, authorityId;
