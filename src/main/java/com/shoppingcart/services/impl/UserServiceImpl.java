@@ -1,8 +1,8 @@
 package com.shoppingcart.services.impl;
 
-import com.shoppingcart.exceptions.DuplicateDataException;
 import com.shoppingcart.entities.Authority;
 import com.shoppingcart.entities.User;
+import com.shoppingcart.exceptions.DuplicateDataException;
 import com.shoppingcart.repositories.UserRepository;
 import com.shoppingcart.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -12,13 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-/**
- * Service class for managing user-related operations.
- * <p>
- * This service class is responsible for managing user data and performing various operations
- * such as retrieving users by email and saving new users. It interacts with the UserRepository
- * for data access and uses a PasswordEncoder for password encryption and comparison.
- */
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
@@ -27,28 +20,11 @@ public class UserServiceImpl implements UserService {
 
     private final PasswordEncoder passwordEncoder;
 
-    /**
-     * Retrieves a user by their email.
-     *
-     * @param email the email of the user
-     * @return the Optional containing the retrieved user, or an empty Optional if the user is not found
-     */
     @Override
     public Optional<User> getByEmail(String email) {
         return userRepository.getByEmail(email);
     }
 
-
-    /**
-     * Saves a new user.
-     * <p>
-     * Please create Authority before saving
-     * First Authority must be Admin
-     * Second Authority must be Customer
-     *
-     * @param user the user to be saved
-     * @throws DuplicateDataException if a user with the same email already exists
-     */
     @Transactional
     @Override
     public void save(User user, boolean isAdmin) throws DuplicateDataException {
