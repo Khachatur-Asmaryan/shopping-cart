@@ -1,10 +1,10 @@
 package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.exceptions.DuplicateDataException;
-import com.shoppingcart.models.Authority;
-import com.shoppingcart.models.User;
+import com.shoppingcart.entities.Authority;
+import com.shoppingcart.entities.User;
 import com.shoppingcart.repositories.UserRepository;
-import com.shoppingcart.services.interfaces.UserService;
+import com.shoppingcart.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

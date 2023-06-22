@@ -2,9 +2,9 @@ package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.dto.request.OrdersUpdateRequest;
 import com.shoppingcart.enums.OrdersStatus;
-import com.shoppingcart.models.Orders;
+import com.shoppingcart.entities.Orders;
 import com.shoppingcart.repositories.OrdersRepository;
-import com.shoppingcart.services.interfaces.OrdersService;
+import com.shoppingcart.services.OrdersService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

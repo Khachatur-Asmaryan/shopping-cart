@@ -2,7 +2,7 @@ package com.shoppingcart.controllers;
 
 import com.shoppingcart.dto.request.AuthenticationRequest;
 import com.shoppingcart.dto.request.ReAuthenticationRequest;
-import com.shoppingcart.services.interfaces.AuthenticationService;
+import com.shoppingcart.services.AuthenticationService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

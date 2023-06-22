@@ -1,6 +1,6 @@
 package com.shoppingcart.repositories;
 
-import com.shoppingcart.models.Authority;
+import com.shoppingcart.entities.Authority;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

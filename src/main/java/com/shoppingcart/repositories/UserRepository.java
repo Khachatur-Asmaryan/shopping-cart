@@ -1,6 +1,6 @@
 package com.shoppingcart.repositories;
 
-import com.shoppingcart.models.User;
+import com.shoppingcart.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

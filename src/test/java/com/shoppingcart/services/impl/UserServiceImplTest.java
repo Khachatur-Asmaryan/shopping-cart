@@ -1,9 +1,9 @@
 package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.exceptions.DuplicateDataException;
-import com.shoppingcart.models.User;
+import com.shoppingcart.entities.User;
 import com.shoppingcart.repositories.UserRepository;
-import com.shoppingcart.services.interfaces.UserService;
+import com.shoppingcart.services.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

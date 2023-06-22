@@ -1,7 +1,7 @@
 package com.shoppingcart.repositories;
 
 import com.shoppingcart.enums.OrdersStatus;
-import com.shoppingcart.models.Orders;
+import com.shoppingcart.entities.Orders;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

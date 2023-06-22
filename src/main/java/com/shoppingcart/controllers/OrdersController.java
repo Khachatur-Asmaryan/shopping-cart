@@ -1,8 +1,8 @@
 package com.shoppingcart.controllers;
 
 import com.shoppingcart.dto.request.OrdersUpdateRequest;
-import com.shoppingcart.models.Orders;
-import com.shoppingcart.services.interfaces.OrdersService;
+import com.shoppingcart.entities.Orders;
+import com.shoppingcart.services.OrdersService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

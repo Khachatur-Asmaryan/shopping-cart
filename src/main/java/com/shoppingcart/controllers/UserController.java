@@ -1,8 +1,8 @@
 package com.shoppingcart.controllers;
 
 import com.shoppingcart.exceptions.DuplicateDataException;
-import com.shoppingcart.models.User;
-import com.shoppingcart.services.interfaces.UserService;
+import com.shoppingcart.entities.User;
+import com.shoppingcart.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

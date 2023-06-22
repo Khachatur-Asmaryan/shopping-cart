@@ -1,7 +1,7 @@
 package com.shoppingcart.services.interfaces;
 
 import com.shoppingcart.dto.request.OrdersUpdateRequest;
-import com.shoppingcart.models.Orders;
+import com.shoppingcart.entities.Orders;
 
 public interface OrdersService {
     void save(Orders orders);

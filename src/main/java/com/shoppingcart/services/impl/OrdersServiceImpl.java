@@ -2,9 +2,9 @@ package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.dto.request.OrdersUpdateRequest;
 import com.shoppingcart.enums.OrdersStatus;
-import com.shoppingcart.models.Orders;
+import com.shoppingcart.entities.Orders;
 import com.shoppingcart.repositories.OrdersRepository;
-import com.shoppingcart.services.interfaces.OrdersService;
+import com.shoppingcart.services.OrdersService;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;

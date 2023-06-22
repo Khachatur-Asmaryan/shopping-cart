@@ -2,9 +2,9 @@ package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.exceptions.BadRequestException;
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Authority;
+import com.shoppingcart.entities.Authority;
 import com.shoppingcart.repositories.AuthorityRepository;
-import com.shoppingcart.services.interfaces.AuthorityService;
+import com.shoppingcart.services.AuthorityService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

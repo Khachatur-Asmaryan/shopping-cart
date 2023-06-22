@@ -1,8 +1,8 @@
 package com.shoppingcart.controllers;
 
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Product;
-import com.shoppingcart.services.interfaces.ProductService;
+import com.shoppingcart.entities.Product;
+import com.shoppingcart.services.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

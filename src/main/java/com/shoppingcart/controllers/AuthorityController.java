@@ -2,8 +2,8 @@ package com.shoppingcart.controllers;
 
 import com.shoppingcart.exceptions.BadRequestException;
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Authority;
-import com.shoppingcart.services.interfaces.AuthorityService;
+import com.shoppingcart.entities.Authority;
+import com.shoppingcart.services.AuthorityService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

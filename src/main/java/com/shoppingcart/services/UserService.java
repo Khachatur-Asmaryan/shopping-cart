@@ -1,7 +1,7 @@
-package com.shoppingcart.services.interfaces;
+package com.shoppingcart.services;
 
 import com.shoppingcart.exceptions.DuplicateDataException;
-import com.shoppingcart.models.User;
+import com.shoppingcart.entities.User;
 
 import java.util.Optional;
 

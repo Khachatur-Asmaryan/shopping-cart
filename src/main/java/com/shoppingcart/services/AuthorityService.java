@@ -1,8 +1,8 @@
-package com.shoppingcart.services.interfaces;
+package com.shoppingcart.services;
 
 import com.shoppingcart.exceptions.BadRequestException;
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Authority;
+import com.shoppingcart.entities.Authority;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.shoppingcart.services.implementations;
 
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Product;
+import com.shoppingcart.entities.Product;
 import com.shoppingcart.repositories.ProductRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

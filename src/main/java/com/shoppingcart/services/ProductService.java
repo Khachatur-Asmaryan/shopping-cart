@@ -1,7 +1,7 @@
-package com.shoppingcart.services.interfaces;
+package com.shoppingcart.services;
 
 import com.shoppingcart.exceptions.NotFoundException;
-import com.shoppingcart.models.Product;
+import com.shoppingcart.entities.Product;
 
 import java.util.List;
 
