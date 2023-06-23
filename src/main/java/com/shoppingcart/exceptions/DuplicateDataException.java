@@ -1,6 +1,6 @@
 package com.shoppingcart.exceptions;
 
-public class DuplicateDataException extends Exception {
+public class DuplicateDataException extends RuntimeException {
 
     public DuplicateDataException() {
     }
