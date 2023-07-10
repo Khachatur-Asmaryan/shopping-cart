@@ -1,18 +1,19 @@
 server:
   servlet:
-    context-path: ""
+    context-path:
   port: 8080
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shopping_cart
-    username: root
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/shopping_cart?currentSchema=shopping_cart
+    username: postgres
     password: root
   flyway:
       locations: classpath:db/migration
+      baselineOnMigrate: true
   jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: none
     show-sql: false
